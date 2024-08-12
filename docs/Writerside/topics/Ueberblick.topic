@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Überblick" id="Ueberblick">
+
+<!--    A section combines multiple topics dedicated to a specific subject.
+            Add a starting page to provide an overview of the topics in the section.
+            Start with two topics you want to promote in the <spotlight> group,
+            several important topics in the <primary> group (for example, where to start),
+            several less important topics in the <secondary> group (for example, more advanced topics),
+            and optionally add any other relevant topics in the <misc> group as cards and lists of links
+            (maybe related topics from other sections).
+            Only the spotlight section is limited to two topics.
+            For other groups, try to keep the number between 2 and 6, but you can add more if necessary.-->
+
+    <section-starting-page>
+        <title>Überblick über alle Dokumentationen</title>
+        <description>
+            Hier findest du alle technischen Dokumentation von mir. Dazu gehört Web, OOP, .NET und vieles mehr
+        </description>
+
+        <!--    Add up to 2 topics that you want to promote. Use the "type" attribute to select an icon.    -->
+        <spotlight>
+            <a href="https://web.docs.levinbaenninger.dev" type="mixed" summary="Hier lernst du alles über Webentwicklung: HTML, CSS, JS, TS, SCSS, Angular, ...">Web</a>
+            <a href="https://dotnet.docs.levinbaenninger.dev" type="development" summary="Hier lernst du alles rund um .NET: C#, Web APIs, CA, DDD, ...">.NET</a>
+        </spotlight>
+
+        <!--    Add several topics that are most important for this section.    -->
+        <primary>
+            <title>Programmierung</title>
+            <a href="https://oop.docs.levinbaenninger.dev" type="cross-platform" summary="Hier lernst du die Konzepte von objektorientiertem Programmieren und UML">Objektorientierte Programmierung</a>
+            <a href="https://c.docs.levinbaenninger.dev" type="documents" summary="Hier lernst du, wie die Programmiersprache C funktioniert, die Mutter aller modernen Programmiersprachen">C</a>
+            <a href="https://datenbanken.docs.levinbaenninger.dev" type="data" summary="Hier lernst du die grundlegenden Konzepte von Datenbanken, wie ERDs und Normalisierung, Access und SQL">Datenbanken</a>
+            <a href="https://markdown.docs.levinbaenninger.dev" type="creative" summary="Hier lernst du, was Markdown ist und wie du es benutzt">Markdown</a>
+        </primary>
+
+        <!--    Add several topics that are less important or are relevant only for advanced/experienced users.    -->
+        <secondary>
+            <title>Verschiedenes</title>
+            <a href="https://git.docs.levinbaenninger.dev" type="branch" summary="Hier lernst du, was Git ist, wie man damit kollaboriert und die einzelnen Commands">Git</a>
+            <a href="https://prozesse.docs.levinbaenninger.dev" type="network" summary="Hier lernst du über Entwicklungsprozesse, Projekte und der Methodik in der Softwareentwicklung">Prozesse</a>
+            <a href="https://itsm.docs.levinbaenninger.dev" type="community" summary="Hier lernst du ITIL, Ivanti, Cherwell und vieles mehr aus der Welt des Service-Managements kennen">ITSM</a>
+        </secondary>
+
+
+    </section-starting-page>
+
+</topic>
