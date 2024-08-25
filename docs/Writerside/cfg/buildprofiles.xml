@@ -4,7 +4,8 @@
                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
     <variables>
-        <primary-color>blueberry</primary-color>
+        <primary-color>frozen</primary-color>
+        <product-web-url>https://levinbaenninger.dev</product-web-url>
     </variables>
     <build-profile instance="docs">
         <variables>
